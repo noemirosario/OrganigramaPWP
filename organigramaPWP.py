@@ -86,7 +86,7 @@ def generar_organigrama(data, codigo_inicial, estatus_filtro='todos', nivel=0):
 # Ejecución principal
 # ---------------------------------------------------------------------
 # Ruta del archivo Excel
-ruta_archivo = r'C:\Users\Juan\Downloads\3103.xlsx'
+ruta_archivo = r'C:\Users\Juan\Downloads\PWP.xlsx'
 
 try:
     data = pd.read_excel(ruta_archivo)
